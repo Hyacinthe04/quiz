@@ -4,25 +4,41 @@ h1{
   
 }
 .jumbotron{
-  background-image: url(../img/background.jpg);
+  background-color: darkslategray;
   background-attachment: fixed;
 }
 .well{
-  background-color: bisque;
+  background-color: rgb(200, 196, 255);
 }
 .panel{
-  background-color: rgb(red, green, blue):
-  background-image: linear-gradient(rgb(92, 68, 68), rgb(218, 240, 167));
-  background-size: contain; 
-  position: relative;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7Y_oYyHKGVsD_uIXMQ6o-7G7v3eVBBEOgr40djxLRZsHMsf8nw');
+  background-repeat: no-repeat;
+  background-size: contain;
+   position: relative;
+   font-family: 'Times New Roman', Times, serif;
+   color: chocolate;
+   font-style: italic;
 }
 #fifth-p{
   visibility: hidden;
-  background-color: burlywood;
   height:100px;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+  
 }
 #fifth-p p{
   text-align: center;
   transform: translate(0%,190%);
-  font-size: 40px;
+  font-size: 20px;
 }
+strong{
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+  font-style: italic;
+}
+

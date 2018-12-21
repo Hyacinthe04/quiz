@@ -1,25 +1,25 @@
 function check() {
-  var questionOne = document.Quiz.questionOne.value;
-  var questionTwo = document.Quiz.questionTwo.value;
-  var questionThree = document.Quiz.questionThree.value;
-  var questionFour = document.Quiz.questionFour.value;
-  var questionFive = document.Quiz.questionFive.value;
+  var q1 = document.Quiz.q1.value;
+  var q2 = document.Quiz.q2.value;
+  var q3 = document.Quiz.q3.value;
+  var q4 = document.Quiz.q4.value;
+  var q5 = document.Quiz.q5.value;
   var right = 0;
 
 
-  if (questionOne == "correct") {
+  if (q1 == "correct") {
       right = right + 10;
   };
-  if (questionTwo == "correct") {
+  if (q2 == "correct") {
       right = right + 10;
   };
-  if (questionThree == "correct") {
+  if (q3 == "correct") {
       right = right + 10;
   };
-  if (questionFour == "correct") {
+  if (q4 == "correct") {
       right = right + 10;
   };
-  if (questionFive == "correct") {
+  if (q5 == "correct") {
       right = right + 10;
   };
 
