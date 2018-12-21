@@ -1,0 +1,69 @@
+<!DOCTYPE >
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<title>QUIZ BOARD</title>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="panel panel-info">
+                <h1>QUIZ BOARD</h1>
+            </div>
+            <br>
+            <h2><em>Answer all the questions correctly.</em></h2>
+
+            <div class="well">
+                <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                    <p><strong> 1. What is the shortform of html? </strong></p>
+                          <br>
+                    <input type="radio" name="questionOne" id="mc" value="correct">html<br>
+                    <input type="radio" name="questionOne" id="mc" value="wrong">hmhlt<br>
+                    <input type="radio" name="questionOne" id="mc" value="wrong">mlht<br>
+            </div>
+            <div class="well">
+                <p><strong> 2. what is the orher name of javascript?</strong></p>
+                <br>
+                <input type="radio" name="questionTwo" id="mc" value="wrong">ECMAscript()<br>
+                <input type="radio" name="questionTwo" id="mc" value="wrong">js()<br>
+                <input type="radio" name="questionTwo" id="mc" value="correct">i don't know()<br>
+            </div>
+            <div class="well">
+                <p><strong> 3. is c++ a low level language?</strong></p>
+                <br>
+                <input type="radio" name="questionThree" id="mc" value="correct">yes()<br>
+                <input type="radio" name="questionThree" id="mc" value="wrong">no()<br>
+                <input type="radio" name="questionThree" id="mc" value="wrong">no Answer()<br>
+            </div>
+            <div class="well">
+
+                <p><strong> 4. Which of the following function of string object combines the text of two strings and
+                        returns a new string?</strong></p>
+                <br>
+                <input type="radio" name="questionFour" id="mc" value="wrong">merge()<br>
+                <input type="radio" name="questionFour" id="mc" value="correct">concat()<br>
+                <input type="radio" name="questionFour" id="mc" value="wrong">add()<br>
+            </div>
+
+            <div class="well">
+                <p><strong> 5. Which of the following function of string object executes the search for a match between
+                        a regular expression and a specified string?</strong></p>
+                <br>
+                <input type="radio" name="questionFive" id="mc" value="wrong">replace()<br>
+                <input type="radio" name="questionFive" id="mc" value="wrong">match()<br>
+                <input type="radio" name="questionFive" id="mc" value="correct">search()<br>
+            </div>
+        </div>
+        <input type="button" name="results" value="SUBMIT" id="button" class="btn btn-danger" onClick="check();">
+        </form>
+    </div>
+    <div id="fifth-p">
+        <p id="correctNumber">HERE IS YOUR SCORE:</p>
+    </div>
+</body>
+<html>
