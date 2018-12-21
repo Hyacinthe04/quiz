@@ -20,4 +20,4 @@ no bugs
 Hyacinthe 0785502657
 
 #License
-License {this project is licenced under MIT hyacinthen04@gmail.com.} Copyright 2018 { Hyacinthe Ndayiragije @wecode} 
+License {this project is licenced under MIT hyacinthen04@gmail.com.} @Copyright 2018 { Hyacinthe Ndayiragije @wecode} 
