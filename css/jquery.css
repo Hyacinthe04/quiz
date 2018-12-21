@@ -68,5 +68,6 @@ input{
   text-align: center;
   margin-bottom: 2em;
   margin-right: 0.5em;
-  color: blue;
+  color:white;
+  background-color: darkgreen;
 }
