@@ -1,4 +1,8 @@
-# {Hyacinthe}
+#project name
+QUIZ BOARD
+
+#author
+ {Hyacinthe}
 
 ##Description
 {This project is digned for the students of java script where it will help them to do a quiz, they will do multiple choice and after submit they receive directly the answer }
@@ -8,8 +12,8 @@
 -vs code
 -google chrome
 -github
-#Known Bugs
-no bugs
+#Link to live side on github
+https://github.com/Hyacinthe04/quiz/blob/master/index.html
 
 #Technologies Used
 -computer
