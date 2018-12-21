@@ -8,19 +8,19 @@ function check() {
 
 
   if (questionOne == "correct") {
-      right = right + 20;
+      right = right + 10;
   };
   if (questionTwo == "correct") {
-      right = right + 20;
+      right = right + 10;
   };
   if (questionThree == "correct") {
-      right = right + 20;
+      right = right + 10;
   };
   if (questionFour == "correct") {
-      right = right + 20;
+      right = right + 10;
   };
   if (questionFive == "correct") {
-      right = right + 20;
+      right = right + 10;
   };
 
 
