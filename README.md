@@ -13,7 +13,7 @@ QUIZ BOARD
 -google chrome
 -github
 #Link to live side on github
-https://github.com/Hyacinthe04/quiz/blob/master/index.html
+https://hyacinthe04.github.io/quiz/
 
 #Technologies Used
 -computer
