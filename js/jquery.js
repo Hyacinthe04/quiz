@@ -1,3 +1,5 @@
+//busness logic
+
 function check() {
   var q1 = document.Quiz.q1.value;
   var q2 = document.Quiz.q2.value;
@@ -6,7 +8,7 @@ function check() {
   var q5 = document.Quiz.q5.value;
   var right = 0;
 
-
+// user interface
   if (q1 == "correct") {
       right = right + 10;
   };
