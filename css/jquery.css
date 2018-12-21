@@ -9,6 +9,7 @@ h2{
 .jumbotron{
   background-color: darkslategray;
   background-attachment: fixed;
+  margin-bottom: 0.1em;
  
 }
 
@@ -18,8 +19,10 @@ h2{
   padding-left: 30px;
   margin-left: 10em;
   margin-right: 10em;
+  
 
 }
+
 .panel{
   background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7Y_oYyHKGVsD_uIXMQ6o-7G7v3eVBBEOgr40djxLRZsHMsf8nw');
   background-repeat: no-repeat;
@@ -59,4 +62,11 @@ input{
   background-color:brown;
   color: white;
   text-align: center;
+}
+.btn-danger{
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-right: 0.5em;
+  color: blue;
 }
